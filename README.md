@@ -207,10 +207,55 @@ Here’s how commonly used platforms compare:
   - Reference scRNA-seq datasets
   - Label transfer
 
+---
 
+# 6. Conceptual Shift You Must Internalize
 
+This is the biggest mindset change:
+- In scRNA-seq:
+  - Cells are independent
+- In spatial transcriptomics:
+  - Cells are context-dependent and spatially correlated
 
+---
 
+# 7. Why the “merge-first” approach breaks in spatial data
+- In traditional scRNA-seq, merging datasets (with batch correction) is often fine because cells are assumed to be independent observations
+- But spatial data introduces an extra layer: location matters
+- If you merge everything blindly:
+  - You lose spatial context, which is the whole point of spatial assays
+  - You risk mixing biological spatial heterogeneity (real tissue structure) with technical variation
+  - You may distort cell–cell interaction patterns, since proximity relationships differ across samples
+  - You ignore sample-specific architecture (e.g., tumor margins vs core, tissue layers)
+
+So, unlike standard scRNA-seq, samples are not just batches—they are distinct spatial systems
+
+## What makes spatial data fundamentally different
+- Spatial transcriptomics sits at the intersection of:
+  - Single-cell RNA sequencing
+  - And spatial biology (tissue architecture, microenvironment)
+- Each sample encodes:
+  - Gene expression
+  - Coordinates (x, y)
+  - Often morphology (histology images)
+
+Merging without respecting coordinates is like combining multiple maps and ignoring geography.
+
+## When merging can be appropriate
+- It’s not that merging is always wrong. It’s about how and when
+
+**Acceptable scenarios:**
+- After within-sample preprocessing
+- Using methods designed for spatial integration (not naive concatenation)
+- When aligning shared biological signals, not spatial structure
+- For cell-type annotation transfer or reference mapping
+
+**Common strategies:**
+- Analyze each sample separately first
+- Identify shared features (cell types, gene programs)
+- Then integrate using spatial-aware or batch-aware methods
+
+> Blindly merging spatial datasets like traditional scRNA-seq is methodologically flawed. But careful, purpose-driven integration is still valid and often necessary
 
 
 
