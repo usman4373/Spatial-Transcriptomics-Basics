@@ -273,25 +273,4 @@ Merging without respecting coordinates is like combining multiple maps and ignor
 
 > Blindly merging spatial datasets like traditional scRNA-seq is methodologically flawed. But careful, purpose-driven integration is still valid and often necessary
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
