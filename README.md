@@ -1,3 +1,5 @@
+# Spatial Transcriptomics Basics
+
 <p style="text-align: justify;">This repository provides a beginner-friendly introduction to spatial transcriptomics for researchers transitioning from standard single-cell RNA-seq. It explains core concepts, major technologies, and key analytical workflows used in spatial data analysis. The guide also highlights common pitfalls and important conceptual shifts required when working with spatially resolved gene expression data. It is designed as a quick but solid foundation for understanding and analyzing spatial transcriptomics datasets.</p>
 
 ## Table of Contents
