@@ -1,3 +1,17 @@
+<p style="text-align: justify;">This repository provides a beginner-friendly introduction to spatial transcriptomics for researchers transitioning from standard single-cell RNA-seq. It explains core concepts, major technologies, and key analytical workflows used in spatial data analysis. The guide also highlights common pitfalls and important conceptual shifts required when working with spatially resolved gene expression data. It is designed as a quick but solid foundation for understanding and analyzing spatial transcriptomics datasets.</p>
+
+## Table of Contents
+
+1. [What is Spatial scRNA Transcriptomics?](#1-what-is-spatial-scrna-transcriptomics)
+2. [Major Divisions of Spatial Transcriptomics](#2-major-divisions-of-spatial-transcriptomics)
+3. [Summary of Major Platforms](#3-summary-of-major-platforms)
+4. [Typical Spatial Transcriptomics Workflow](#4-typical-spatial-transcriptomics-workflow)
+5. [Critical Things to Keep in Mind](#5-critical-things-to-keep-in-mind-this-is-where-people-mess-up)
+6. [Conceptual Shift You Must Internalize](#6-conceptual-shift-you-must-internalize)
+7. [Why the “merge-first” approach breaks in spatial data](#7-why-the-merge-first-approach-breaks-in-spatial-data)
+
+---
+
 # 1. What is Spatial scRNA Transcriptomics?
 
 Spatial transcriptomics refers to technologies that measure gene expression while preserving the spatial location of cells within tissue
