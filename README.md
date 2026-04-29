@@ -170,6 +170,42 @@ Here’s how commonly used platforms compare:
 **F. Cell–cell interaction analysis**
 - Ligand–receptor analysis with spatial constraints
 
+---
+
+# 5. Critical Things to Keep in Mind (THIS IS WHERE PEOPLE MESS UP)
+
+### 1. Spatial ≠ Single-cell (always)
+- Visium spots ≠ single cells
+- Always consider mixed cell populations
+
+### 2. Do NOT blindly merge samples
+- Each sample has its own spatial architecture
+- Merging destroys biological spatial patterns
+
+### 3. Batch effects are different here
+- Technical + spatial + biological variation are intertwined
+- Overcorrection can remove real spatial biology
+
+### 4. Histology matters
+- Always overlay gene expression on tissue image
+- Ignoring morphology = missing half the story
+
+### 5. Resolution limitations
+- Know your platform resolution
+- Don’t overinterpret spot-level data as single-cell
+
+### 6. Deconvolution is not optional (for many datasets)
+- Especially for 10x Genomics Visium
+
+### 7. Spatial statistics are different
+- You need methods that account for spatial structure:
+  - Moran’s I
+  - Geary’s C
+
+### 8. Integration with scRNA-seq is key
+- Spatial data often needs:
+  - Reference scRNA-seq datasets
+  - Label transfer
 
 
 
