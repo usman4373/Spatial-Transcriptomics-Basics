@@ -2,6 +2,10 @@
 
 <p style="text-align: justify;">This repository provides a beginner-friendly introduction to spatial transcriptomics for researchers transitioning from standard single-cell RNA-seq. It explains core concepts, major technologies, and key analytical workflows used in spatial data analysis. The guide also highlights common pitfalls and important conceptual shifts required when working with spatially resolved gene expression data. It is designed as a quick but solid foundation for understanding and analyzing spatial transcriptomics datasets.</p>
 
+<p style="text-align: justify;">A comprehensive review by Alexander et al. provides a beginner-friendly overview of spatial omics data analysis workflows, describing the transition from scRNA-seq approaches to spatially aware computational pipelines and covering essential steps including data preprocessing, quality control, normalization, clustering, spatial domain detection, cell-type annotation, and downstream biological interpretation. This work serves as a useful starting guide for researchers entering the field of spatial transcriptomics analysis.</p>
+
+**Here is the link to the paper: [Computational workflows and data infrastructures for spatial omics analysis](https://www.sciexplor.com/exo/articles/EXO.2026.0010)**
+
 ## Table of Contents
 
 1. [What is Spatial scRNA Transcriptomics?](#1-what-is-spatial-scrna-transcriptomics)
