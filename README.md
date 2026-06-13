@@ -6,6 +6,8 @@
 
 **Here is the link to the paper: [Computational workflows and data infrastructures for spatial omics analysis](https://www.sciexplor.com/exo/articles/EXO.2026.0010)**
 
+![workflow](workflow.jpg)
+
 ## Table of Contents
 
 1. [What is Spatial scRNA Transcriptomics?](#1-what-is-spatial-scrna-transcriptomics)
